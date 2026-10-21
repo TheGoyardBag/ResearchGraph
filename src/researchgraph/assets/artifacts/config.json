@@ -1,0 +1,33 @@
+{
+  "candidates": 40,
+  "encoder": "tfidf_svd (not pretrained)",
+  "feature_names": [
+    "author_similarity",
+    "best_work_similarity",
+    "top3_work_similarity",
+    "recent_work_similarity",
+    "coauthor_support",
+    "fraction_relevant_works",
+    "best_work_recency"
+  ],
+  "mean": [
+    0.16491476148269915,
+    0.2644765214821775,
+    0.2141138635579698,
+    0.20188629547127573,
+    0.1649147614365488,
+    0.20696924603174602,
+    0.5131613772687694
+  ],
+  "scale": [
+    0.21208634398659804,
+    0.2911094490655009,
+    0.26572354778577967,
+    0.27586433671118776,
+    0.19340210310320885,
+    0.2927209534588733,
+    0.32986430870431943
+  ],
+  "seed": 61,
+  "selected_by": "validation NDCG@10"
+}

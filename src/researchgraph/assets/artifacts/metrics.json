@@ -1,0 +1,52 @@
+{
+  "data": "120 fictional researchers, 720 fictional works, 132 queries; labels derived from fixture topics",
+  "evaluation": "Unseen topic-pair intents; paraphrases stay together. Transductive fixed-catalog ranking, not new-author generalization.",
+  "limitations": [
+    "Synthetic labels are not human relevance judgments",
+    "Default TF-IDF/SVD is lexical latent retrieval, not Sentence Transformers",
+    "No employment history, availability, contact details or protected-attribute inference",
+    "Ranking score is not a confidence or compatibility probability"
+  ],
+  "results": {
+    "test": {
+      "graph_neighbor_only": {
+        "candidate_recall_grade2@40": 0.75,
+        "ndcg@10": 0.6384428642719779,
+        "queries": 24
+      },
+      "hybrid_pairwise_ranker": {
+        "candidate_recall_grade2@40": 0.75,
+        "ndcg@10": 0.9822563972337676,
+        "queries": 24
+      },
+      "lexical_svd_only": {
+        "candidate_recall_grade2@40": 0.75,
+        "ndcg@10": 0.9015501886542454,
+        "queries": 24
+      }
+    },
+    "validation": {
+      "graph_neighbor_only": {
+        "candidate_recall_grade2@40": 0.75,
+        "ndcg@10": 0.686002535744907,
+        "queries": 24
+      },
+      "hybrid_pairwise_ranker": {
+        "candidate_recall_grade2@40": 0.75,
+        "ndcg@10": 0.952039513288249,
+        "queries": 24
+      },
+      "lexical_svd_only": {
+        "candidate_recall_grade2@40": 0.75,
+        "ndcg@10": 0.91739902922291,
+        "queries": 24
+      }
+    }
+  },
+  "splits": {
+    "test": 24,
+    "train": 84,
+    "validation": 24
+  },
+  "training_seconds": 4.460569274999898
+}

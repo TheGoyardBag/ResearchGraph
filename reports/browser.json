@@ -1,0 +1,53 @@
+{
+  "browser": "Chromium via Playwright",
+  "transport": "Local DOM harness: repository scripts loaded inline; fetch bridged to a real Uvicorn HTTP backend; sessionStorage emulated for opaque origin. Browser network policy blocked native navigation, so native ESM/CSP transport is not validated.",
+  "checks": [
+    {
+      "check": "page renders without credentials",
+      "passed": true
+    },
+    {
+      "check": "authenticated dashboard loads",
+      "passed": true
+    },
+    {
+      "check": "evaluation table contains real metrics",
+      "passed": true
+    },
+    {
+      "check": "model report available",
+      "passed": true
+    },
+    {
+      "check": "results have source evidence",
+      "passed": true
+    },
+    {
+      "check": "graph relationships rendered",
+      "passed": true
+    },
+    {
+      "check": "institution constraint enforced",
+      "passed": true
+    },
+    {
+      "check": "relevance feedback persisted",
+      "passed": true
+    },
+    {
+      "check": "no browser JavaScript errors",
+      "passed": true
+    },
+    {
+      "check": "desktop does not overflow horizontally",
+      "passed": true
+    },
+    {
+      "check": "mobile does not overflow horizontally",
+      "passed": true
+    }
+  ],
+  "total": 11,
+  "passed": 11,
+  "errors": []
+}

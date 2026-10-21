@@ -1,0 +1,16 @@
+{
+  "project": "ResearchGraph",
+  "python_tests_passed": 43,
+  "python_tests_skipped": 0,
+  "python_statement_coverage": 74.5,
+  "javascript_tests_passed": 6,
+  "browser_checks_passed": 11,
+  "browser_transport": "Local DOM + fetch bridge to actual HTTP backend; native browser navigation blocked",
+  "training_executed": true,
+  "editable_install_no_deps_verified": true,
+  "full_dependency_resolution_verified": false,
+  "docker_verified": false,
+  "remote_ci_executed": false,
+  "fresh_archive_verified": true,
+  "validation_date_utc": "2026-10-21"
+}

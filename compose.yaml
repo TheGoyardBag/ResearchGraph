@@ -1,0 +1,13 @@
+services:
+  app:
+    build: .
+    ports: ["127.0.0.1:8105:8105"]
+    environment:
+      APP_TOKEN: ${APP_TOKEN:?Set APP_TOKEN to a strong random token}
+      APP_STATE_DIR: /app/var
+    volumes: ["state:/app/var"]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: ["ALL"]
+    restart: unless-stopped
+volumes:
+  state:

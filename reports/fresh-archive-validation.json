@@ -1,0 +1,38 @@
+{
+  "project": "researchgraph",
+  "passed": true,
+  "extracted_from": "researchgraph-researcher-discovery.zip",
+  "manifest_files_verified": 61,
+  "steps": [
+    {
+      "command": "/opt/pyvenv/bin/python -m pytest -q --disable-warnings",
+      "returncode": 0,
+      "output": "...........................................                              [100%]\n43 passed in 7.05s\n",
+      "stderr": ""
+    },
+    {
+      "command": "node --test tests/ui.test.mjs",
+      "returncode": 0,
+      "output": "TAP version 13\n# Subtest: formats finite numbers\nok 1 - formats finite numbers\n  ---\n  duration_ms: 48.787783\n  type: 'test'\n  ...\n# Subtest: nonfinite numbers are not displayed as measurements\nok 2 - nonfinite numbers are not displayed as measurements\n  ---\n  duration_ms: 0.187712\n  type: 'test'\n  ...\n# Subtest: percentage formatter\nok 3 - percentage formatter\n  ---\n  duration_ms: 7.983613\n  type: 'test'\n  ...\n# Subtest: identifier truncation\nok 4 - identifier truncation\n  ---\n  duration_ms: 0.136238\n  type: 'test'\n  ...\n# Subtest: chart path handles missing values\nok 5 - chart path handles missing values\n  ---\n  duration_ms: 0.225474\n  type: 'test'\n  ...\n# Subtest: chart path uses line after first sample\nok 6 - chart path uses line after first sample\n  ---\n  duration_ms: 0.103714\n  type: 'test'\n  ...\n1..6\n# tests 6\n# suites 0\n# pass 6\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 303.302304\n",
+      "stderr": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m researchgraph setup",
+      "returncode": 0,
+      "output": "Setup succeeded; token output intentionally omitted.",
+      "stderr": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m researchgraph demo",
+      "returncode": 0,
+      "output": "d synthetic fixture\",\n          \"title\": \"Study 001-1: computer vision methods\",\n          \"topics\": [\n            \"computer vision\"\n          ],\n          \"url\": null,\n          \"year\": 2021,\n          \"retrieval_score\": 0.6294208765029907\n        },\n        {\n          \"abstract\": \"A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.\",\n          \"authors\": [\n            \"demo:author:000\"\n          ],\n          \"id\": \"demo:work:000-1\",\n          \"source\": \"authored synthetic fixture\",\n          \"title\": \"Study 001-2: computer vision methods\",\n          \"topics\": [\n            \"computer vision\"\n          ],\n          \"url\": null,\n          \"year\": 2021,\n          \"retrieval_score\": 0.6294208765029907\n        }\n      ],\n      \"features\": {\n        \"author_similarity\": 0.7335622310638428,\n        \"best_work_similarity\": 0.8584753274917603,\n        \"top3_work_similarity\": 0.7057723999023438,\n        \"recent_work_similarity\": 0.8584753274917603,\n        \"coauthor_support\": 0.6537115573883057,\n        \"fraction_relevant_works\": 1.0,\n        \"best_work_recency\": 0.8333333134651184\n      },\n      \"explanation\": \"Ranked using publication text and coauthor support; inspect the cited fixture works.\"\n    }\n  ],\n  \"mode\": \"hybrid_pairwise_ranker\",\n  \"encoder\": \"tfidf_svd\",\n  \"retrieval_backend\": \"numpy\",\n  \"warning\": \"All researchers and publications in this demo are fictional. This is research relevance, not a hiring recommendation or a verified biography.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": "/opt/pyvenv/bin/python -m compileall -q src tests scripts",
+      "returncode": 0,
+      "output": "",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "query": "computer vision and robotics",
+  "results": [
+    {
+      "id": "demo:author:096",
+      "institution": "Demo Institute 1",
+      "name": "Fictional Researcher 097",
+      "source": "authored synthetic fixture",
+      "ranking_score": 5.9452667236328125,
+      "score_is_probability": false,
+      "evidence": [
+        {
+          "abstract": "A fictional investigation of computer vision and robotics. image recognition visual detection segmentation cameras perception robot motion planning manipulation navigation control autonomous. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:096",
+            "demo:author:108"
+          ],
+          "id": "demo:work:096-3",
+          "source": "authored synthetic fixture",
+          "title": "Study 097-4: computer vision methods",
+          "topics": [
+            "computer vision",
+            "robotics"
+          ],
+          "url": null,
+          "year": 2025,
+          "retrieval_score": 0.8741534948348999
+        },
+        {
+          "abstract": "A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:096",
+            "demo:author:108"
+          ],
+          "id": "demo:work:096-0",
+          "source": "authored synthetic fixture",
+          "title": "Study 097-1: computer vision methods",
+          "topics": [
+            "computer vision"
+          ],
+          "url": null,
+          "year": 2021,
+          "retrieval_score": 0.6516814231872559
+        },
+        {
+          "abstract": "A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:096"
+          ],
+          "id": "demo:work:096-1",
+          "source": "authored synthetic fixture",
+          "title": "Study 097-2: computer vision methods",
+          "topics": [
+            "computer vision"
+          ],
+          "url": null,
+          "year": 2022,
+          "retrieval_score": 0.6516814231872559
+        }
+      ],
+      "features": {
+        "author_similarity": 0.7495636343955994,
+        "best_work_similarity": 0.8741534948348999,
+        "top3_work_similarity": 0.725838840007782,
+        "recent_work_similarity": 0.8741534948348999,
+        "coauthor_support": 0.6238768100738525,
+        "fraction_relevant_works": 1.0,
+        "best_work_recency": 1.0
+      },
+      "explanation": "Ranked using publication text and coauthor support; inspect the cited fixture works."
+    },
+    {
+      "id": "demo:author:048",
+      "institution": "Demo Institute 1",
+      "name": "Fictional Researcher 049",
+      "source": "authored synthetic fixture",
+      "ranking_score": 5.814545154571533,
+      "score_is_probability": false,
+      "evidence": [
+        {
+          "abstract": "A fictional investigation of computer vision and robotics. image recognition visual detection segmentation cameras perception robot motion planning manipulation navigation control autonomous. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:048",
+            "demo:author:060"
+          ],
+          "id": "demo:work:048-3",
+          "source": "authored synthetic fixture",
+          "title": "Study 049-4: computer vision methods",
+          "topics": [
+            "computer vision",
+            "robotics"
+          ],
+          "url": null,
+          "year": 2024,
+          "retrieval_score": 0.8603159785270691
+        },
+        {
+          "abstract": "A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:048",
+            "demo:author:060"
+          ],
+          "id": "demo:work:048-0",
+          "source": "authored synthetic fixture",
+          "title": "Study 049-1: computer vision methods",
+          "topics": [
+            "computer vision"
+          ],
+          "url": null,
+          "year": 2022,
+          "retrieval_score": 0.6332461833953857
+        },
+        {
+          "abstract": "A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:048"
+          ],
+          "id": "demo:work:048-1",
+          "source": "authored synthetic fixture",
+          "title": "Study 049-2: computer vision methods",
+          "topics": [
+            "computer vision"
+          ],
+          "url": null,
+          "year": 2025,
+          "retrieval_score": 0.6332461833953857
+        }
+      ],
+      "features": {
+        "author_similarity": 0.73401939868927,
+        "best_work_similarity": 0.8603159785270691,
+        "top3_work_similarity": 0.7089361548423767,
+        "recent_work_similarity": 0.8603159785270691,
+        "coauthor_support": 0.6227245330810547,
+        "fraction_relevant_works": 1.0,
+        "best_work_recency": 0.8333333134651184
+      },
+      "explanation": "Ranked using publication text and coauthor support; inspect the cited fixture works."
+    },
+    {
+      "id": "demo:author:000",
+      "institution": "Demo Institute 1",
+      "name": "Fictional Researcher 001",
+      "source": "authored synthetic fixture",
+      "ranking_score": 5.734553337097168,
+      "score_is_probability": false,
+      "evidence": [
+        {
+          "abstract": "A fictional investigation of computer vision and robotics. image recognition visual detection segmentation cameras perception robot motion planning manipulation navigation control autonomous. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:000",
+            "demo:author:012"
+          ],
+          "id": "demo:work:000-3",
+          "source": "authored synthetic fixture",
+          "title": "Study 001-4: computer vision methods",
+          "topics": [
+            "computer vision",
+            "robotics"
+          ],
+          "url": null,
+          "year": 2024,
+          "retrieval_score": 0.8584753274917603
+        },
+        {
+          "abstract": "A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:000",
+            "demo:author:012"
+          ],
+          "id": "demo:work:000-0",
+          "source": "authored synthetic fixture",
+          "title": "Study 001-1: computer vision methods",
+          "topics": [
+            "computer vision"
+          ],
+          "url": null,
+          "year": 2021,
+          "retrieval_score": 0.6294208765029907
+        },
+        {
+          "abstract": "A fictional investigation of computer vision. image recognition visual detection segmentation cameras perception. Methods and evaluation are illustrative, not actual publications.",
+          "authors": [
+            "demo:author:000"
+          ],
+          "id": "demo:work:000-1",
+          "source": "authored synthetic fixture",
+          "title": "Study 001-2: computer vision methods",
+          "topics": [
+            "computer vision"
+          ],
+          "url": null,
+          "year": 2021,
+          "retrieval_score": 0.6294208765029907
+        }
+      ],
+      "features": {
+        "author_similarity": 0.7335622310638428,
+        "best_work_similarity": 0.8584753274917603,
+        "top3_work_similarity": 0.7057723999023438,
+        "recent_work_similarity": 0.8584753274917603,
+        "coauthor_support": 0.6537115573883057,
+        "fraction_relevant_works": 1.0,
+        "best_work_recency": 0.8333333134651184
+      },
+      "explanation": "Ranked using publication text and coauthor support; inspect the cited fixture works."
+    }
+  ],
+  "mode": "hybrid_pairwise_ranker",
+  "encoder": "tfidf_svd",
+  "retrieval_backend": "numpy",
+  "warning": "All researchers and publications in this demo are fictional. This is research relevance, not a hiring recommendation or a verified biography."
+}
